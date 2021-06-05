@@ -97,6 +97,22 @@ body{
     display: none;
 }
 
+footer {
+    background-color: #B5BAB8;
+    height: 4vh;
+    margin-top: 10px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer li{
+    list-style: none;
+    margin-top: 5px;
+}
+
 @keyframes navLinkFade {
     from {
         opacity: 0;
