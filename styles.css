@@ -93,6 +93,10 @@ body{
     height: auto;
 }
 
+.hero-2{
+    display: none;
+}
+
 @keyframes navLinkFade {
     from {
         opacity: 0;
