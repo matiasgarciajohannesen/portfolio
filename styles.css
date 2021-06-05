@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: lightgray;
+    width: 100%;
+}
+
+.logo img{
+    height: 60px;
+    width: auto;
+}
+
+.hamburger div{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
