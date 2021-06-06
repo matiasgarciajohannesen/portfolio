@@ -89,58 +89,24 @@ body{
     overflow: hidden;
 }
 
-.hero img {
-    width: 100%;
-    height: auto;
-}
-
-.hero-2{
-    display: none;
-}
-
-.intro {
+.profil {
+    margin: 30px;
     display: flex;
     justify-content: center;
 }
 
-.me {
+.profil img {
+    transform: rotate(-10deg);
+    height: 270px;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.info {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin: 20px;
-}
-
-.me p{
-    margin-top: 10px;
-}
-
-.projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 10px;
-}
-
-.pro-1, .pro-2, .pro-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-}
-
-.pro-1 img {
-    display: flex;
-    width: 100px;
-    height: auto;
-}
-.pro-2 img {
-    width: 100px;
-    height: auto;
-}
-.pro-3 img {
-    width: 100px;
-    height: auto;
+    margin: 30px;
 }
 
 footer {
