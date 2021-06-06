@@ -11,6 +11,8 @@ nav {
     min-height: 8vh;
     background-color: lightgray;
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .logo img{
@@ -141,6 +143,10 @@ body{
 .pro-3 img {
     width: 100px;
     height: auto;
+}
+
+button {
+    margin-top: 10px;
 }
 
 footer {
