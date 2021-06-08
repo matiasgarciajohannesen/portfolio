@@ -160,7 +160,9 @@ input {
     position: relative;
     padding: 5px 10px 5px 5px;
     background-color: lightgrey;
+    z-index: -1;
 }
+
 
 .allblogs {
     display: flex;
