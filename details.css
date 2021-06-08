@@ -11,8 +11,6 @@ nav {
     min-height: 8vh;
     background-color: lightgray;
     width: 100%;
-    position: fixed;
-    top: 0;
 }
 
 .logo img{
@@ -91,103 +89,32 @@ body{
     overflow: hidden;
 }
 
-.hero img {
-    width: 100%;
-    height: auto;
-}
-
-.hero-2{
-    display: none;
-}
-
-.intro {
-    display: flex;
-    justify-content: center;
-}
-
-.me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 20px;
-}
-
-.me p{
-    margin-top: 10px;
-}
-
-.projects {
+.info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 10px;
 }
 
-.pro-1, .pro-2, .pro-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-}
-
-.pro-1 img {
-    display: flex;
-    width: 100px;
-    height: auto;
-}
-.pro-2 img {
-    width: 100px;
-    height: auto;
-}
-.pro-3 img {
-    width: 100px;
-    height: auto;
-}
-
-button {
-    margin-top: 20px;
-    appearance: none;
-    border-radius: 5px;
-    border: none;
-    box-sizing: border-box;
-    cursor: pointer;
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all .5s cubic-bezier(.2,0,.05,1);
-    letter-spacing: .5px;
-    position: relative;
-    padding: 5px 10px 5px 5px;
-    background-color: lightgrey;
-}
-
-.allblogs {
+.info h2{
     display: flex;
     justify-content: center;
-
+    margin-bottom: 10px;
+    font-size: xx-large;
 }
 
-.all {
-    display: grid;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.all h2 {
+.info p{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
-.all img {
-    width: 200px;
+.hero {
+    width: 100%;
     height: auto;
+    margin-bottom: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
 
 footer {
     background-color: lightgrey;
