@@ -145,7 +145,7 @@ body{
     height: auto;
 }
 
-button {
+input {
     margin-top: 20px;
     appearance: none;
     border-radius: 5px;
