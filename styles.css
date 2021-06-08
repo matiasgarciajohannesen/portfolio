@@ -149,6 +149,33 @@ button {
     margin-top: 10px;
 }
 
+.allblogs {
+    display: flex;
+    justify-content: center;
+
+}
+
+.all {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.all h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.all img {
+    width: 200px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 footer {
     background-color: lightgrey;
     height: 6vh;
