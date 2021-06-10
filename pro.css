@@ -89,52 +89,48 @@ body{
     overflow: hidden;
 }
 
-.profil {
-    margin: 30px;
+.hero {
     display: flex;
     justify-content: center;
+    margin: 20px;
 }
 
-.profil img {
-    transform: rotate(-10deg);
-    height: 270px;
-    width: auto;
-    border-radius: 20px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+.museum {
+    width: 150px;
+    height: auto;
 }
 
 .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 30px;
-}
-
-.abt {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     margin: 20px;
 }
 
-.abt div {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.info h2 {
+    margin-bottom: 20px;
 }
 
-.abt h2 {
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.info p {
+    margin-bottom: 20px;
 }
 
-.abt li {
-    list-style: none;
-    margin-top: 5px;
+button {
+    margin-top: 20px;
+    appearance: none;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s cubic-bezier(.2,0,.05,1);
+    letter-spacing: .5px;
+    position: relative;
+    padding: 5px 10px 5px 5px;
+    background-color: lightgrey;
+    z-index: 0;
 }
 
 footer {
