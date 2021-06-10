@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    position: relative;
+}
+
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -16,14 +21,6 @@ nav {
 .logo img{
     height: 50px;
     width: auto;
-}
-
-.hamburger div{
-    width: 25px;
-    height: 3px;
-    background-color: black;
-    margin: 5px;
-    margin-left: 200px;
 }
 
 .nav-list {
@@ -44,49 +41,15 @@ nav {
     font-weight: bold;
 }
 
-.nav-list {
+.hamburger {
    display: none; 
 }
 
-.menu div {
+.hamburger div {
     width: 25px;
     height: 3px;
-    background-color: #ffffff;
+    background-color: black;
     margin: 5px;
-}
-
-body{
-    overflow-x: hidden;
-}
-
-.nav-list {
-    display: none;
-    position: absolute;
-    right: 0px;
-    height: 92vh;
-    top: 8vh;
-    background-color: lightgrey;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    transform: translateX(-100%);
-    transition: transform 0.3s ease-in;
-    z-index: 2;
-} 
-
-.nav-list li{
-    opacity: 0;
-}
-
-.nav-active {
-    transform: translateX(0%);
-    z-index: 2;
-}
-
-.noScroll {
-    height: 100%;
-    overflow: hidden;
 }
 
 .info {
@@ -130,6 +93,48 @@ footer ul{
 footer li{
     list-style: none;
     margin-top: 15px;
+}
+
+@media  (min-width:0px) and (max-width:769px){
+
+    body {
+        overflow-x: hidden;  
+    }
+
+    .nav-list {
+        display: none;
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in;
+        z-index: 99999;
+    } 
+
+    .nav-list li{
+        opacity: 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+}
+
+.nav-active {
+    transform: translateX(0%);
+    z-index: 2;
+}
+
+.noScroll {
+    height: 100%;
+    overflow: hidden;
 }
 
 @keyframes navLinkFade {
