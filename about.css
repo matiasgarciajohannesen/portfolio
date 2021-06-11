@@ -73,6 +73,12 @@ nav {
     margin: 30px;
 }
 
+.info h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
 .abt {
     display: flex;
     justify-content: center;
@@ -146,6 +152,24 @@ footer li{
 
     .hamburger {
         display: block;
+    }
+
+}
+
+
+
+/*laptop*/
+
+@media (min-width:1024px){
+
+    .abt {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .proLang li {
+        display: flex;
+        justify-content: center;
     }
 
 }
