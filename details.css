@@ -52,10 +52,17 @@ nav {
     margin: 5px;
 }
 
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 10px;
 }
 
@@ -75,6 +82,7 @@ nav {
 .hero {
     width: 100%;
     height: auto;
+    align-items: center;
     margin-bottom: 20px;
 }
 
@@ -125,6 +133,16 @@ footer li{
         display: block;
     }
 
+}
+
+/*laptop*/
+
+@media (min-width:1024px){
+
+    .hero {
+        width: 500px;
+        height: auto;
+    }
 }
 
 .nav-active {

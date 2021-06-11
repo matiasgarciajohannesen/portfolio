@@ -52,58 +52,82 @@ nav {
     margin: 5px;
 }
 
-.hero {
-    display: flex;
-    justify-content: center;
-    margin: 90px;
-}
+main {
 
-.museum {
-    width: 150px;
-    height: auto;
+    height: 740px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 20px;
-    align-items: center;
+    margin: 10px;
 }
 
-.info h2 {
+.info h2{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 30px;
+    margin-bottom: 10px;
     font-size: xx-large;
 }
 
-.info p {
+.info p{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    margin: 0 80px 0 80px;
-    font-size: larger;
-    
+    margin-bottom: 10px;
 }
 
-button {
-    margin: 35px;
-    appearance: none;
-    border-radius: 5px;
-    border: none;
-    box-sizing: border-box;
-    cursor: pointer;
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all .5s cubic-bezier(.2,0,.05,1);
-    letter-spacing: .5px;
-    padding: 5px 10px 5px 5px;
-    background-color: lightgrey;
-    z-index: 0;
-    width: 20%;
+.hero {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.txt h2 {
+    margin: 20px;
+    font-size: xxx-large;
+}
+
+.txt p {
+    font-size: larger;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40PX;
+}
+
+.insta {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.face {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.linked {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.git {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contact img{
+    margin-right: 10px;
 }
 
 footer {
